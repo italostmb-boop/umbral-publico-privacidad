@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Umbral Público</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 24px; color: #333; line-height: 1.7; }
+  h1 { color: #1a2e22; font-size: 24px; }
+  h2 { color: #206548; font-size: 17px; margin-top: 32px; }
+  .header { background: #1a2e22; color: #fff; padding: 24px; border-radius: 10px; margin-bottom: 32px; }
+  .header p { color: #A5D6A7; margin: 4px 0 0; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+  .header h1 { color: #fff; margin: 4px 0 0; }
+  a { color: #206548; }
+  ul { padding-left: 20px; }
+  .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #eee; font-size: 13px; color: #777; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p>Umbral Público</p>
+  <h1>Política de privacidad</h1>
+</div>
+
+<p><a href="index.html">&larr; Volver al inicio</a> · Última actualización: 2 de octubre de 2026</p>
+
+<h2>Quién es el responsable</h2>
+<p>Umbral Público es una consultoría chilena de compras públicas a cargo de Ítalo Morello Barahona (abogado), quien es el responsable del tratamiento de los datos descritos aquí. Contacto: <strong>umbralpublico@gmail.com</strong>.</p>
+
+<h2>¿Qué es esta aplicación?</h2>
+<p>Es una herramienta interna de uso exclusivo del titular del negocio, que automatiza la búsqueda diaria de licitaciones en Mercado Público y el envío de notificaciones a clientes que contratan el servicio de monitoreo. No es un producto público ni de uso masivo: solo tiene un usuario administrador, que es quien opera el sistema.</p>
+
+<h2>Qué datos de Google utiliza y para qué</h2>
+<p>La aplicación funciona bajo la cuenta de Google del titular y solo accede a las hojas, formularios y calendario del propio sistema:</p>
+<ul>
+  <li><strong>Google Sheets:</strong> almacena la configuración de búsqueda de cada cliente (rubro, palabras clave, región, organismos), el registro de licitaciones encontradas y los datos de contacto del cliente (nombre y correo).</li>
+  <li><strong>Gmail (solo envío):</strong> envía correos automáticos con las oportunidades encontradas, al administrador y a los clientes que contrataron el servicio y entregaron su correo para este fin, además del correo de bienvenida a quien completa el formulario. La aplicación no lee, lista, modifica ni elimina ningún correo de nadie.</li>
+  <li><strong>Google Calendar:</strong> crea, actualiza y elimina, en un calendario del titular, recordatorios de fechas de cierre de las licitaciones que los clientes marcaron como de su interés. Solo toca los eventos que ella misma creó.</li>
+  <li><strong>Google Forms:</strong> recibe las respuestas del formulario de registro que completan los interesados en el servicio.</li>
+  <li><strong>Menús y diálogos en la hoja de cálculo y disparadores automáticos:</strong> permiten operar el sistema (por ejemplo, revisar y enviar oportunidades) y programar las búsquedas diarias. No leen otros datos de Google.</li>
+</ul>
+
+<h2>Servicios externos con los que se comunica</h2>
+<ul>
+  <li><strong>Mercado Público (api.mercadopublico.cl):</strong> se consulta para obtener licitaciones y compras ágiles publicadas. No se envían datos de clientes a este servicio.</li>
+  <li><strong>Khipu (procesador de pagos chileno):</strong> para cobrar el Plan Monitoreo. Cuando se genera un enlace de pago, la aplicación envía a Khipu el nombre y el correo de quien va a pagar, el monto (CLP), la descripción del cobro, un identificador de transacción y la fecha de expiración. Cuando Khipu avisa que hubo un pago, la aplicación consulta a Khipu los datos de ese pago (por ejemplo, correo del pagador, monto y estado) para confirmar el pago y activar el servicio. No se envía a Khipu ningún otro dato proveniente de Google (ni el contenido de las hojas, del calendario o de los correos). Khipu trata los datos de pago según sus propias políticas.</li>
+</ul>
+
+<h2>Qué NO hace esta aplicación</h2>
+<ul>
+  <li>No vende datos ni los comparte con terceros ni con servicios de publicidad, salvo el envío a Khipu descrito arriba, necesario para el cobro.</li>
+  <li>No usa datos de Google para publicidad ni para entrenar modelos de inteligencia artificial.</li>
+  <li>No recopila datos de personas ajenas al servicio contratado.</li>
+  <li>No accede a Google Drive ni a ningún archivo fuera de las hojas de cálculo y formularios propios del sistema.</li>
+  <li>No lee correos de Gmail: únicamente envía los que el propio sistema genera.</li>
+</ul>
+
+<h2>Dónde se almacenan y por cuánto tiempo</h2>
+<p>Los datos de los clientes se guardan únicamente en una hoja de cálculo de Google que pertenece a la cuenta del titular; no se copian a otros sistemas. Los datos de configuración y contacto de un cliente se conservan mientras el cliente mantenga el servicio; esa es nuestra política general de conservación y no una regla automática del sistema, que no borra estos datos por sí solo cuando termina el servicio. El historial de oportunidades descartadas se elimina automáticamente a los 90 días.</p>
+
+<h2>Cómo pedir la eliminación de tus datos</h2>
+<p>Cualquier cliente puede pedir en cualquier momento que se eliminen sus datos de contacto y de configuración, o que se le deje de enviar correos, escribiendo a <strong>umbralpublico@gmail.com</strong>; procesaremos la solicitud en un plazo razonable. Además, puedes revocar el acceso de la aplicación a tu cuenta de Google desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Uso de la información recibida de las APIs de Google</h2>
+<p>El uso que Umbral Público hace de la información recibida de las APIs de Google cumple con la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado (Limited Use). Esa información se usa solo para prestar las funciones descritas en esta página.</p>
+
+<h2>Datos de contacto</h2>
+<p>Para cualquier consulta sobre esta política: <strong>umbralpublico@gmail.com</strong></p>
+
+<h2>English summary</h2>
+<p>Umbral Público is a small Chilean public-procurement consultancy run by one person. Its Google Apps Script automation runs under the owner's own Google account, searches the public Mercado Público portal every day and emails each subscribed client the relevant tenders. Google data is limited to the owner's own Google Sheet (client configuration and logs), Gmail send-only (the app never reads, lists or modifies email), one Google Calendar (closing-date reminders it creates itself) and Google Forms (registration responses). For payments, the payer's name and email, the amount and a transaction identifier are sent to Khipu, a Chilean payment processor; no other Google data is sent to any third party. Google user data is not sold, not used for advertising and not used to train AI models. The use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Contact: umbralpublico@gmail.com.</p>
+
+<div class="footer">
+  Umbral Público · Consultoría en Compras Públicas · Chile
+</div>
+
+</body>
+</html>
